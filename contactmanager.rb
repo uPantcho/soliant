@@ -1,6 +1,6 @@
 require 'csv'
 
-class ContactManager 
+class ContactManager
 	
 	def initialize(csvfile)
 		@contacts = {}
