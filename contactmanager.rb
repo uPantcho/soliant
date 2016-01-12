@@ -68,9 +68,9 @@ elsif (input == "2")
 elsif (input == "3") 
 	puts "Type the last name's first letter"
 	input = gets.chomp
-	while (gets.length != 1)
+	while (input.length != 1)
 		puts "Type only one letter"
-		input = gets
+		input = gets.chomp
 	end
 	
 		cm.printByLetter(input)
